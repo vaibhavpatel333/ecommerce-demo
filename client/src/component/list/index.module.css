@@ -1,0 +1,191 @@
+.bookListPageChild,
+.bookListPageItem {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  background-color: var(--font-white);
+  width: 375px;
+  height: 336px;
+}
+.bookListPageItem {
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 48px;
+}
+.redGudie01,
+.redGudie02 {
+  position: absolute;
+  top: 0;
+  background-color: var(--color-tomato);
+  width: 16px;
+  height: 812px;
+  display: none;
+}
+.redGudie02 {
+  left: 0;
+}
+.redGudie01 {
+  right: 0;
+}
+.books {
+  position: absolute;
+  top: 13px;
+  left: calc(50% - 25.5px);
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-family: var(--font-noto-sans);
+}
+.frameChild {
+  position: relative;
+  width: 188px;
+  height: 189px;
+}
+.div {
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 156px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.b,
+.div,
+.div1 {
+  position: relative;
+  line-height: 100%;
+}
+.div1 {
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: var(--font-noto-sans-cjk-kr);
+  color: var(--n-10);
+}
+.container,
+.group,
+.parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-base);
+  color: var(--n-11);
+}
+.group,
+.parent {
+  align-items: flex-start;
+}
+.group {
+  flex-direction: row;
+  gap: var(--gap-44xl);
+  color: var(--error);
+  font-family: var(--font-roboto);
+}
+.parent {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.groupContainer,
+.groupParent,
+.groupParent1,
+.groupParent2 {
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.groupContainer,
+.groupParent1,
+.groupParent2 {
+  top: 305px;
+}
+.groupParent1,
+.groupParent2 {
+  top: 562px;
+}
+.groupParent2 {
+  top: 819px;
+}
+.frameChild1 {
+  position: relative;
+  width: 188px;
+  height: 187px;
+}
+.groupParent3,
+.groupParent4,
+.groupParent5,
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  position: absolute;
+  top: 1076px;
+  left: calc(50% - 187.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupParent4,
+.groupParent5,
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  top: 48px;
+  left: calc(50% + 0.5px);
+}
+.groupParent5,
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  top: 305px;
+}
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  top: 562px;
+}
+.groupParent7,
+.groupParent8 {
+  top: 819px;
+}
+.groupParent8 {
+  top: 1076px;
+}
+.bookListPage {
+  position: relative;
+  background-color: var(--font-white);
+  width: 100%;
+  height: 1206px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--n-10);
+  font-family: var(--font-noto-sans-cjk-kr);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

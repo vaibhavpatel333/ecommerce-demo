@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+CJK+KR:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-noto-sans-cjk-kr: "Noto Sans CJK KR";
+  --font-roboto: Roboto;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --font-white: #fff;
+  --n-10: #1d232b;
+  --n-11: #080a0c;
+  --error: #ff003e;
+  --color-tomato: rgba(255, 64, 64, 0.5);
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-44xl: 63px;
+  --gap-10xs: 3px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+}
